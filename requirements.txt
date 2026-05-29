@@ -1,0 +1,16 @@
+# Core dependencies for reproduce_all_clean.{ipynb,py}
+# On Colab/Kaggle these are installed by the notebook itself.
+# torch / torch-geometric are CUDA-version specific — see:
+#   https://pytorch.org/get-started/locally/
+#   https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+
+numpy
+pandas
+requests
+tqdm
+pyarrow
+rdkit
+thermochem
+torch
+torch-geometric
+matplotlib
